@@ -1,0 +1,35 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter local checkpoints
+.ipynb_checkpoints/
+
+# Generated experiment outputs (not part of source repository)
+chronos2_results/
+chronos2_results_final/
+
+# Local secrets and environment variables
+.env
+.env.*
+!.env.example
+*.key
+
+# OS / editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Distribution and package metadata
+build/
+dist/
+*.egg-info/

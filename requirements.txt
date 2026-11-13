@@ -1,0 +1,11 @@
+# Chronos-2 zero-shot time-series forecasting case study
+# GPU-specific PyTorch/CUDA builds should be installed according to your platform.
+chronos-forecasting==2.3.2
+numpy==2.4.6
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.0
+huggingface-hub==1.33.0
+ipython>=8
+# PyTorch is hardware-specific; its tested runtime is recorded separately.
+torch>=2.2,<3
