@@ -124,6 +124,15 @@ python -m pip check
 - Inference times are diagnostics, **not** controlled latency benchmarks.
 - The notebook was run successfully on Google Colab with CUDA and separately on **Windows / Python 3.11 / CPU** using a fresh environment installed from `requirements.txt`; the reported metrics agreed at three decimal places. See `tested_environment.txt` for the recorded Colab package versions.
 
+## License
+
+The original code in this repository is released under the
+[MIT License](LICENSE).
+
+Chronos-2 model weights, the ETTh1 dataset, and third-party
+dependencies remain subject to their respective licenses
+and terms of use.
+
 ## Sources
 
 - [Amazon Chronos / Chronos-2 documentation and implementation](https://github.com/amazon-science/chronos-forecasting)
